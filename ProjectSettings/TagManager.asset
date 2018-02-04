@@ -9,8 +9,8 @@ TagManager:
   - SmallStarTag
   - SmallCloudTag
   - LargeCloudTag
-  - LargeStartag
   - ScoreText
+  - LargeStarTag
   layers:
   - Default
   - TransparentFX

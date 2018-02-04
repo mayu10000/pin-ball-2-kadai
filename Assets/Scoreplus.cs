@@ -52,17 +52,16 @@ public class Scoreplus : MonoBehaviour
         if (other.gameObject.tag == "SmallCloudTag")
 
         {
-         //   if (tag == "SmallCloudTag")    // ここ間違い　上に
-
-                //  {
-                // スコアを加算(追加)
-                this.score += 25　;
+            
+            // スコアを加算(追加)
+            this.score += 25;
 
 
 
             //ScoreText獲得した点数を表示(追加)
-            //this.scoreText.GetComponent<Text>().text = "Score " + this.score + "pt";
+         //   this.scoreText.GetComponent<Text>().text = "Score " + this.score + "pt";
         }
+
 
 
         //雲大に衝突した場合
@@ -87,7 +86,7 @@ public class Scoreplus : MonoBehaviour
 
         {
             // スコアを加算(追加)
-            this.score += 20　;
+            this.score += 20;
 
         }
 
@@ -100,7 +99,7 @@ public class Scoreplus : MonoBehaviour
 
         {
             // スコアを加算(追加)
-            this.score += 10　;
+            this.score += 10;
 
         }
 
